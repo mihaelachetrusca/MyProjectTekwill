@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <button id="modal-open">Contact Us</button>
+    <div id="contact-modal" class="modal">
+        <div id="modal-content">
+            <div id="modal-header">
+                <span class="close-modal">&times;</span>
+                <h2>How we can help you?</h2>
+            </div>
+            <div id="modal-body">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-contact">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-contact">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="form-contact">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-contact">
+                        <label for="message">Message</label>
+                        <textarea type="text" placeholder="Enter Your First NameMessage"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <div id="modal-footer">
+                <h3>My Website &copy; 2022</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./contacte_modal.js"></script>
+    
+</body>
+</html>
